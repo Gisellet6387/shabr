@@ -7,17 +7,35 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 
     <title>SHARB</title>
-    
+
     <style>
-      
+
     </style>
   </head>
   <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">SHARB</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Information</a>
+      <a class="nav-item nav-link" href="#">Gallery</a>
+      <a class="nav-item nav-link" href="#">Testimonials</a>
+      <a class="nav-item nav-link" href="#">Contact</a>
+    </div>
+  </div>
+</nav>
+<div>
+  <img src="https://ak7.picdn.net/shutterstock/videos/5754617/thumb/1.jpg" alt="hot air balloon">
+</div>
 <h5>Info</h5>
 <div class="card-group">
   <div class="card">
@@ -54,14 +72,47 @@
     </div>
   </div>
 </div>
+
+
 <h5>Gallery</h5>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../shabr/img/balloon-1.jpg" class="d-block w-100" alt="1">
+    </div>
+    <div class="carousel-item">
+      <img src="../shabr/img/balloon-2.jpg" class="d-block w-100" alt="2">
+    </div>
+    <div class="carousel-item">
+      <img src="../shabr/img/balloon-3.jpg" class="d-block w-100" alt="3">
+    </div>
+    <div class="carousel-item">
+      <img src="../shabr/img/balloon-4.jpg" class="d-block w-100" alt="4">
+    </div>
+    <div class="carousel-item">
+      <img src="../shabr/img/balloon-5.jpg" class="d-block w-100" alt="5">
+    </div>
+    <div class="carousel-item">
+      <img src="../shabr/img/balloon-6.jpg" class="d-block w-100" alt="6">
+    </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
 <h5>Testimonials</h5>
 <div class="accordion" id="accordionExample">
   <div class="card">
     <div class="card-header" id="headingOne">
       <h2 class="mb-0">
         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
+          Costumer #1
         </button>
       </h2>
     </div>
@@ -74,14 +125,14 @@
             <footer class="blockquote-footer"> Joan H. <cite title="Source Title"> (Happy costomer)</cite></footer>
           </blockquote>
         </div>
-      </div>  
+      </div>
     </div>
   </div>
   <div class="card">
     <div class="card-header" id="headingTwo">
       <h2 class="mb-0">
         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
+          Costumer #2
         </button>
       </h2>
     </div>
@@ -99,7 +150,7 @@
     <div class="card-header" id="headingThree">
       <h2 class="mb-0">
         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
+          Costumer #3
         </button>
       </h2>
     </div>
@@ -117,7 +168,7 @@
     <div class="card-header" id="headingFour">
       <h2 class="mb-0">
         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          Collapsible Group Item #4
+          Costumer #4
         </button>
       </h2>
     </div>
@@ -136,7 +187,7 @@
     <div class="card-header" id="headingFive">
       <h2 class="mb-0">
         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #5
+          Costumer #5
         </button>
       </h2>
     </div>
@@ -155,7 +206,7 @@
     <div class="card-header" id="headingSix">
       <h2 class="mb-0">
         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-          Collapsible Group Item #6
+          Costumer #6
         </button>
       </h2>
     </div>
@@ -169,6 +220,33 @@
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<h5>Contact</h5>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Address</h5>
+        <p class="card-text">SHABR, Inc.  1234 Shabr Road  Somewhere, OT 80013</p>
+        <a href="https://www.google.com/maps" class="btn btn-primary">Directions</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Phone Number</h5>
+        <p class="card-text">(555) 555-1234</p>
+        <a href="https://voice.google.com/u/0/about" class="btn btn-primary">Call Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    Copyright © 2016   |   SHABR
   </div>
 </div>
     <!-- Optional JavaScript -->
