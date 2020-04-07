@@ -3,16 +3,23 @@ h3 {
     text-align:center;
     letter-spacing:3px;
     text-shadow:2px 2px 10px Blue;
+    padding:45px;
+    margin:20px;
 }
 h2{
     font-size:20px;
     text-align:center;
     letter-spacing:5px;
-    
-}
-.nothing{
-    color:white;
+    padding:20px;
+    margin:5px;
 }
 .navbar{
-    background-color:violet;
+    background-color:#ffc6bf;
+}
+background{
+    background-color:blue;
+}
+.up{
+    max-width:110%;
+    max-height:100%;
 }
